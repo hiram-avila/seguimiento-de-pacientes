@@ -75,7 +75,8 @@ export const Formulario = ({ pacientes, setPacientes }) => {
                         id='mascota'
                         type='text'
                         placeholder='Nombre de la mascota'
-                        className='border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md'
+                        className='border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md '
+                        autoComplete='off'
                         value={nombre}
                         onChange={e => setNombre(e.target.value)}    
                     />
